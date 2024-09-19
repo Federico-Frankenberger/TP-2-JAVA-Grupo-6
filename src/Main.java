@@ -329,19 +329,29 @@ public  class Main {
                             case 21:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 21:");
-
+                                System.out.println("Ingrese un número entero mayor que cero:");
+                                int n = sc.nextInt();
+                                int resultado = FuncionesRecursivas.suma_recursiva(n);
+                                System.out.println("La suma de los números desde " + n + " hasta 1 es " + resultado);
                                 System.out.println("-------------------------------------");
                                 break;
                             case 22:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 22:");
-
+                                System.out.println("Ingrese un número entero positivo:");
+                                int num1 = sc.nextInt();
+                                int sumaDeDigitos = FuncionesRecursivas.suma_digitos_recursiva(num1);
+                                System.out.println("La suma de los dígitos de " + num1 + " es " + sumaDeDigitos);
                                 System.out.println("-------------------------------------");
                                 break;
                             case 23:
                                 System.out.println("-------------------------------------");
                                 System.out.println("Ejercicio 23:");
-
+                                System.out.print("Introduce una cadena de texto: ");
+                                sc.nextLine();
+                                String cadena1 = sc.nextLine();
+                                String cadenaInvertida = FuncionesRecursivas.invertir_cadena(cadena1);
+                                System.out.println("La cadena invertida es: " + cadenaInvertida);
                                 System.out.println("-------------------------------------");
                                 break;
                             case 24:
