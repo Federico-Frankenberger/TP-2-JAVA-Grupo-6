@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.text.ParseException;
 import java.util.Date;
 import java.util.Scanner;
@@ -365,7 +364,6 @@ public  class Main {
                                 System.out.println("ERROR - número fuera de rango - vuleva a intentar!");
                                 System.out.println("--------------------------------------------------");
                         }
-
                     }while(num==1);
                     break;
                 case 2 :
@@ -377,7 +375,5 @@ public  class Main {
                     System.out.println("- Número fuera de rango - Intente nuevamente -\n1 / Continuar \n2 / Salir");
             }
         }while (num != 2);
-
-
     }
 }
