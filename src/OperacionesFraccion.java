@@ -19,10 +19,10 @@ public class OperacionesFraccion {
         Fraccion f2 = new Fraccion(numerador2,denominador2);
 
         // Realizar operaciones //
-        Fraccion suma = f1.sumarFracciones(f1, f2);
-        Fraccion resta = f1.restarFracciones(f1, f2);
-        Fraccion multiplicacion = f1.multiplicarFracciones(f1, f2);
-        Fraccion division = f1.dividirFracciones(f1, f2);
+        Fraccion suma = Fraccion.sumarFracciones(f1, f2);
+        Fraccion resta = Fraccion.restarFracciones(f1, f2);
+        Fraccion multiplicacion = Fraccion.multiplicarFracciones(f1, f2);
+        Fraccion division = Fraccion.dividirFracciones(f1, f2);
 
         // Mostrar resultados //
         System.out.println("La suma de las fracciones es: " + suma);

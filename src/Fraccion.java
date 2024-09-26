@@ -37,22 +37,22 @@ public class Fraccion {
             this.denominador = denominador;
         }
     }
-    public Fraccion sumarFracciones(Fraccion f1, Fraccion f2){
+    public static Fraccion sumarFracciones(Fraccion f1, Fraccion f2){
         int numerador = f1.numerador * f2.denominador + f2.numerador * f1.denominador;
         int denominador = f1.denominador * f2.denominador;
         return new Fraccion(numerador, denominador);
     }
-    public Fraccion restarFracciones(Fraccion f1, Fraccion f2){
+    public static Fraccion restarFracciones(Fraccion f1, Fraccion f2){
         int numerador = f1.numerador * f2.denominador - f2.numerador * f1.denominador;
         int denominador = f1.denominador * f2.denominador;
         return new Fraccion(numerador, denominador);
     }
-    public Fraccion multiplicarFracciones(Fraccion f1, Fraccion f2){
+    public static Fraccion multiplicarFracciones(Fraccion f1, Fraccion f2){
         int numerador = f1.numerador * f2.numerador;
         int denominador = f1.denominador * f2.denominador;
         return new Fraccion(numerador, denominador);
     }
-    public Fraccion dividirFracciones(Fraccion f1, Fraccion f2){
+    public static Fraccion dividirFracciones(Fraccion f1, Fraccion f2){
         int numerador = f1.numerador * f2.denominador;
         int denominador = f1.denominador * f2.numerador;
         return new Fraccion(numerador, denominador);
